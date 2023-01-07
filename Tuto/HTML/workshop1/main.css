@@ -1,0 +1,162 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mynav{
+    padding: 20px 0px;;
+    background-color: grey;
+}
+
+.cover{
+    background-image: url("/Tuto/HTML/room.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.myform{
+    background-color: white;
+    padding: 50px 50px 50px;
+    width: 400px;
+}
+
+.myform h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(151, 148, 148);
+    font-weight: bold;
+}
+
+.cover .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cover .myform .btn{
+    width: 100%;
+}
+
+.benefit{
+    padding: 50px 0px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.T1{
+    font-size: 24px;
+    color: rgb(151, 148, 148);
+    font-weight: bold;
+}
+
+.T2{
+    text-align: center;
+}
+
+.flex-item img{
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(151, 148, 148);
+    text-align: center;
+}
+
+.T3{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(151, 148, 148);
+}
+
+.header img{
+    margin: 0 auto;
+    width: 60px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.list-container{
+    list-style: none;
+    padding: 50px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.list-container .list-item{
+    flex: 0 30%;
+    text-align: center;
+}
+
+.thumb img{
+    width: 100%;
+}
+
+.head_color{
+    font-size: 24px;
+    color: blue;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+
+.colored_button_div{
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid blue;
+}
+
+.colored_button_div:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.colored_button_div:hover a{
+    color: white;
+    text-decoration: none;
+}
+
+.flex-3{
+    flex: 3;
+}
+
+.flex-2{
+    flex: 2;
+    width: 100%;
+}
+
+.point_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.single_point_div{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.single_point_div .point_circle{
+    margin-right: 20px;
+}
+
+.single_point_text{
+    line-height: 2;
+}
